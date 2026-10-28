@@ -30,7 +30,7 @@ const readNotes = () => {
 
 const saveNotes = (notes)=>{
     const notesString = JSON.stringify(notes);
-    fs.writeFileSync('./notes.json',notesStriing);
+    fs.writeFileSync('./notes.json',notesString);
 };
 
 const removeNote = (t)=>{
